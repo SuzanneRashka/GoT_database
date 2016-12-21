@@ -1,0 +1,22 @@
+body {
+    background: url(http://www.thinkgeek.com/images/products/additional/large/iilt_got_westeros_fleece_blanket_det.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.imagebg {
+    /*opacity: 0.3;*/
+}
